@@ -123,6 +123,8 @@ if answer.lower().strip() == "yes":
             print("You gasp and take a step back")
             sleep(3)
             print(f"{Format.italic}{Format.cyan}Thank goodness I didn't cross that bridge...{Format.off} You think to yourself.")
+            #possible routes? See light -> House in distance -> people in house -> go in house -> death--unfiendly
+             #possible routes? See light -> House in distance -> people in house -> someone escaping -> trust and escape with them
         
     else:
         print("...") 
